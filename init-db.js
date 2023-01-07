@@ -53,7 +53,7 @@ async function initProducts(){
 }
 
 async function main(){
-    const confirmed = await askingForConfirmation("Are you sure you want to DELETE all the content from your database? [no] (Type "yes" to confirm) ")
+    const confirmed = await askingForConfirmation("Are you sure you want to DELETE all the content from your database? [no] (Type 'yes' to confirm)")
     if(!confirmed){
         process.exit();
     }
