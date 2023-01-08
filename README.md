@@ -1,3 +1,27 @@
+
+# Nodepop
+
+Node, Express and MongoDB practice for the Bootcamp Women In Tech by Keepcoding and Glovo ✨
+
+## Run Locally
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Initialize database
+
+```bash
+  npm run init-db
+```
+Start the server
+
+```bash
+  npm start
+```
+
 ### API Reference
 
 ## Read
@@ -57,4 +81,3 @@
 ```http
   DELETE /api/products/${id}
 ```
-
