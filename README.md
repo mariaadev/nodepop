@@ -1,7 +1,7 @@
 
 # Nodepop
 
-Node, Express and MongoDB practice for the Bootcamp Women In Tech by Keepcoding and Glovo ✨
+Node, Express and MongoDB practice for the Bootcamp Women In Tech by Keepcoding and Glovo 
 
 ## Run Locally
 
