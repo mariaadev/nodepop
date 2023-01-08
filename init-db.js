@@ -19,8 +19,6 @@ function askingForConfirmation(text){
     });
 };
 
-
-
 async function initProducts(){
     const result = await Product.deleteMany();
 
@@ -28,25 +26,25 @@ async function initProducts(){
         name: "Nintendo Switch OLED",
         onSale: true,
         price: 280.50,
-        image: "",
+        image: "nintendo-switch.jpg",
         tags: ["lifestyle"]
     }, {
         name: "Iphone 14 Pro Max",
         onSale: true,
         price: 980.55,
-        image: "",
+        image: "iphone-14-pro-max.jpg",
         tags: ["lifestyle","mobile","work"]
     },{
         name: "Apple Magic Keyboard",
         onSale: false,
         price: 76.80,
-        image: "",
+        image: "keyboard-apple.jpg",
         tags: ["lifestyle","work"]
     },{
-        name: "Electronic Bike",
+        name: "Electric Bike",
         onSale: false,
         price: 340.99,
-        image: "",
+        image: "electric-bike.jpg",
         tags: ["lifestyle","motor"]
     },
     ])
