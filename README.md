@@ -28,49 +28,49 @@ Start the server
 
 #### Get all products
 
-```http
+```bash
   GET /apiv1/products
 ```
 
 #### Get product
 
-```http
+```bash
   GET /api/products/${id}
 ```
 #### Get product by tag name
 
-```http
+```bash
   GET /apiv1/products?tags=mobile
 ```
 
 #### Get product if On sale
 
-```http
+```bash
   GET /apiv1/products?onSale=true
 ```
 
 #### Get image of the product
 
-```http
+```bash
   GET /images/products/keyboard-apple.jpg
 ```
 #### Get products by pagination
 
-```http
+```bash
   GET /apiv1/products?tags=mobile&skip=3&limit=3
 ```
 
 ## Write
 #### Create new product
 
-```http
+```bash
   POST /api/products/${id}
 ```
 
 ## Update
 #### Update product
 
-```http
+```bash
   PUT /api/products/${id}
 ```
 
@@ -78,6 +78,6 @@ Start the server
 
 #### Delete product
 
-```http
+```bash
   DELETE /api/products/${id}
 ```
